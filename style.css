@@ -1,6 +1,6 @@
 :root {
   --main_color: rgb(94, 95, 51);
-  --highlight: #f1b6da;
+  --highlight: rgb(209, 60, 33);
 }
 html{
     font-size: 62.5%
@@ -12,8 +12,15 @@ html{
   width: 100%;
   /* The width is the width of the web page */
 }
+/* browser width: */
 @media(min-width:901px){
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0 0 0;
 
+}
     h2 {
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
@@ -55,12 +62,26 @@ html{
     background-attachment: fixed;
     
     }
-
-
+.contact {
+    word-spacing: 0.3rem;
+padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
+}
+/* mobile browsers: */
 @media(max-width:900px){
 
+.lead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1 1 1;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    position: fixed;
+
+}
     h2 {
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 
@@ -71,10 +92,9 @@ html{
     }
 
     .lead h2 {
-        text-align: right;
+        text-align: center;
         font-family: "Arial";
-        font-size: 1.5rem;
-        background-color: #FFFFFF;
+
     }
 
     .lead img {
@@ -83,7 +103,7 @@ html{
         border-color: var(--main_color);
         border-width: 5px;
         display: inline;
-        text-align: left;
+        text-align: center;
     }
     
     .content-wrapper {
@@ -92,9 +112,10 @@ html{
         width: 100%;
         flex-wrap: wrap;
         background-color: rgba(255, 255, 255, 0.75);
-        padding-right: 10px;
-        padding-left: 10px;
-        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 20rem;
+
 
     }
 
@@ -105,7 +126,12 @@ html{
     background-attachment: fixed;
     
     }
-
+.contact {
+    word-spacing: 0.3rem;
+padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: rgba(255, 255, 255, 0.75);
+font-size: 1.5rem;
+}
 
 }
 
@@ -152,13 +178,7 @@ footer {
     line-height: 1.5;
 }
 
-.lead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem 0 0 0;
 
-}
 
 .lead h1 {
     margin-top: 1rem;
@@ -167,11 +187,7 @@ footer {
 
 
 
-.contact {
-    word-spacing: 0.3rem;
-padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.75);
-}
+
 
 
 .top-wrapper {
@@ -193,6 +209,13 @@ padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color: #FFFFFF;
             padding-right: 10px;
         padding-left: 10px;
+        padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about ul {
+    background-color: #FFFFFF;
+            padding-right: 10px;
+        padding-left: 20px;
         padding-top: 10px;
     padding-bottom: 10px;
 }
