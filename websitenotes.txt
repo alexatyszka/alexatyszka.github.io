@@ -1,0 +1,3 @@
+
+	•	but you should make your own 404
+	•	https://validator.w3.org/nu/?doc=https%3A%2F%2Fatyszka.org%2F
