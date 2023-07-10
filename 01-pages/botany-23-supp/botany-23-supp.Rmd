@@ -1,0 +1,67 @@
+---
+title: "Botany 2023 Interactive Figures"
+author: "Alexa Tyszka"
+date: "`r Sys.Date()`"
+output: html_document
+runtime: shiny
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+library(raster)
+library(plotly)
+library(ggplot2)
+library(geodata)
+library(viridis)
+library(tidyterra)
+library(terra)
+library(sf)
+w <- read_sf(dsn= "World_Countries_Generalized/World_Countries_Generalized.shp")
+
+```
+
+## Figure 3a
+
+
+
+```{r fig3a, echo=FALSE, warning=FALSE, fig.width=10, fig.height=5, fig.fullwidth=TRUE}
+
+rich_whole = raster("rich_whole_94.tif")
+rwd <- as.data.frame(rich_whole, xy=T)
+rwd$count <- rwd$scrubbed_species_binomial 
+
+#fig3a <- plot_ly(rwd, x = ~x, y = ~y, z= ~count, type="heatmap", colors = viridis_pal(option = "G", direction=-1)(12))
+#fig3a
+
+p  <- ggplot(rwd) +
+   geom_sf(data=w, fill=NA)+
+    #geom_spatraster(data = rich, aes(fill = scrubbed_species_binomial)) +
+    #if we desire NA to be the same as zero
+    #https://blogs.uoregon.edu/rclub/2016/10/21/dealing-with-missingout-of-bounds-values-in-heatmaps/
+    geom_tile(aes(x = x, y = y, fill = count))+
+    scale_fill_viridis(option="mako", direction=-1,na.value = 'white')+
+    theme_minimal()+
+    theme(axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          
+    )+
+    #geom_sf(w)+
+    labs(
+      fill = "Number of species"
+    )
+
+ggplotly(p)
+```
+
+This figure represents xyz.
+
+## Figure 3b
+
+
+
+```{r fig3b, echo=FALSE}
+
+```
+
+This figure represents xyz.
