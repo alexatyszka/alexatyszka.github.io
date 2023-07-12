@@ -1,0 +1,19 @@
+---
+title: "Citations for Tyszka et al. Poster, Botany 2023"
+author: "Alexa Tyszka"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Poster Citations
+
+Yang, Ya, Michael J. Moore, Samuel F. Brockington, Alfonso Timoneda, Tao Feng, Hannah E. Marx, Joseph F. Walker, and Stephen A. Smith. ["An efficient field and laboratory workflow for plant phylotranscriptomic projects." _Applications in Plant Sciences_ 5, no. 3 (2017): 1600128.](https://doi.org/10.3732%2Fapps.1600128)
+
+
+## Inset table citations
+
+

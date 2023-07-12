@@ -8,6 +8,7 @@ runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
+#rmarkdown::render(input = "botany-23-supp/botany-23-supp.Rmd")
 knitr::opts_chunk$set(echo = T)
 library(raster)
 library(plotly)
@@ -25,9 +26,9 @@ w <- read_sf(dsn= "World_Countries_Generalized/World_Countries_Generalized.shp")
 
 
 
-```{r fig3a, echo=FALSE, warning=FALSE, fig.width=10, fig.height=5, fig.fullwidth=TRUE}
+```{r fig3a, echo=FALSE, warning=FALSE, out.width='100%', fig.height=6}
 
-rich_whole = raster("rich_whole_94.tif")
+  rich_whole = raster("rich_whole_4.tif")
 rwd <- as.data.frame(rich_whole, xy=T)
 rwd$count <- rwd$scrubbed_species_binomial 
 
