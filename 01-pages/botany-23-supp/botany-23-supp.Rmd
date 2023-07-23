@@ -52,7 +52,7 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Number of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = F, scrollZoom =T)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F)%>% layout(dragmode="pan"
       )
 ```
 
@@ -89,7 +89,7 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Number of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = F, scrollZoom =T)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = F, scrollZoom =F)%>% layout(dragmode="pan"
       )
 ```
 
@@ -126,7 +126,7 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Proportion of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = F, scrollZoom =T)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = F, scrollZoom =F)%>% layout(dragmode="pan"
       )
 ```
 
