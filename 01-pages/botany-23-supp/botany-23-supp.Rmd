@@ -19,7 +19,7 @@ library(tidyterra)
 library(terra)
 library(sf)
 w <- read_sf(dsn= "World_Countries_Generalized/World_Countries_Generalized.shp")
-
+buttonstoremove <- c('zoom2d', 'pan2d', "toImage", "select2d", "lasso2d", "autoScale2d", "hoverClosestCartesian", "hoverCompareCartesian")
 ```
 
 ## Figure 1a: Total global vascular plant species richness
@@ -52,7 +52,7 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Number of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan"
       )
 ```
 
@@ -89,7 +89,7 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Number of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = F, scrollZoom =F)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan"
       )
 ```
 
@@ -126,7 +126,7 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Proportion of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = F, scrollZoom =F)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan"
       )
 ```
 
