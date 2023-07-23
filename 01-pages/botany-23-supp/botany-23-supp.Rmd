@@ -22,20 +22,18 @@ w <- read_sf(dsn= "World_Countries_Generalized/World_Countries_Generalized.shp")
 
 ```
 
-## Figure 3a
+## Figure 1a: Total global vascular plant species richness
 
 
 
-```{r fig3a, echo=FALSE, warning=FALSE, out.width='100%', fig.height=6}
+```{r fig1a, echo=FALSE, warning=FALSE, , out.width='100%'}
 
   rich_whole = raster("rich_whole_4.tif")
 rwd <- as.data.frame(rich_whole, xy=T)
 rwd$count <- rwd$scrubbed_species_binomial 
 
-#fig3a <- plot_ly(rwd, x = ~x, y = ~y, z= ~count, type="heatmap", colors = viridis_pal(option = "G", direction=-1)(12))
-#fig3a
 
-p  <- ggplot(rwd) +
+p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
    geom_sf(data=w, fill=NA)+
     #geom_spatraster(data = rich, aes(fill = scrubbed_species_binomial)) +
     #if we desire NA to be the same as zero
@@ -43,26 +41,93 @@ p  <- ggplot(rwd) +
     geom_tile(aes(x = x, y = y, fill = count))+
     scale_fill_viridis(option="mako", direction=-1,na.value = 'white')+
     theme_minimal()+
-    theme(axis.title.x = element_blank(),
+    theme(          axis.title.x = element_blank(),
           axis.title.y = element_blank(),
-          
+          legend.title = element_text(size = 6), 
+               legend.text = element_text(size = 6),
+          plot.margin = unit(c(0, 0,0,0),"inches"),
     )+
     #geom_sf(w)+
     labs(
       fill = "Number of species"
     )
 
-ggplotly(p)
+ggplotly(p)%>% config(displayModeBar = F, scrollZoom =T)%>% layout(dragmode="pan"
+      )
 ```
 
-This figure represents xyz.
+1a) Global species occurrence data were collected from the RBIEN database. Each species in the Kew World Checklist of Vascular Plants (WCVP) was searched in RBIEN (WCVP n=356,618, within RBIEN n= 174,106). Lat/long pairs (n=22,881,401) were downloaded and rasterized over a 4x4 latitude by longitude grid. 
 
-## Figure 3b
+## Figure 1b: Richness for vascular plant species with a sequenced transcriptome 
 
 
 
-```{r fig3b, echo=FALSE}
+```{r fig1b, echo=FALSE, echo=FALSE, warning=FALSE, out.width='100%', fig.height=6}
+  rich_sra = raster("rich_just_sra_4.tif")
+rwd <- as.data.frame(rich_sra, xy=T)
+rwd$count <- rwd$scrubbed_species_binomial 
 
+#fig3a <- plot_ly(rwd, x = ~x, y = ~y, z= ~count, type="heatmap", colors = viridis_pal(option = "G", direction=-1)(12))
+#fig3a
+
+p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
+   geom_sf(data=w, fill=NA)+
+    #geom_spatraster(data = rich, aes(fill = scrubbed_species_binomial)) +
+    #if we desire NA to be the same as zero
+    #https://blogs.uoregon.edu/rclub/2016/10/21/dealing-with-missingout-of-bounds-values-in-heatmaps/
+    geom_tile(aes(x = x, y = y, fill = count))+
+    scale_fill_viridis(option="mako", direction=-1,na.value = 'white')+
+    theme_minimal()+
+    theme(          axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          legend.title = element_text(size = 6), 
+               legend.text = element_text(size = 6),
+          plot.margin = unit(c(0, 0,0,0),"inches"),
+    )+
+    #geom_sf(w)+
+    labs(
+      fill = "Number of species"
+    )
+
+ggplotly(p)%>% config(displayModeBar = F, scrollZoom =T)%>% layout(dragmode="pan"
+      )
 ```
 
-This figure represents xyz.
+1b) The records for transcriptome sequenced species which occurred in the SRA (n= 4,653 valid species were present in RBIEN, out of 6,966) were collected. This returned 6,441,980 lat/long pairs. 
+
+## Figure 1c: Proportion of species with a sequenced transcriptome
+
+
+
+```{r fig1c, echo=FALSE, echo=FALSE, warning=FALSE, out.width='100%', fig.height=6}
+    adj = raster("adj_rich_4.tif")
+rwd <- as.data.frame(adj, xy=T)
+rwd$count <- rwd$scrubbed_species_binomial 
+
+#fig3a <- plot_ly(rwd, x = ~x, y = ~y, z= ~count, type="heatmap", colors = viridis_pal(option = "G", direction=-1)(12))
+#fig3a
+
+p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
+   geom_sf(data=w, fill=NA)+
+    #geom_spatraster(data = rich, aes(fill = scrubbed_species_binomial)) +
+    #if we desire NA to be the same as zero
+    #https://blogs.uoregon.edu/rclub/2016/10/21/dealing-with-missingout-of-bounds-values-in-heatmaps/
+    geom_tile(aes(x = x, y = y, fill = lyr1))+
+    scale_fill_viridis(option="rocket", direction=-1,na.value = 'white')+
+    theme_minimal()+
+    theme(          axis.title.x = element_blank(),
+          axis.title.y = element_blank(),
+          legend.title = element_text(size = 6), 
+               legend.text = element_text(size = 6),
+          plot.margin = unit(c(0, 0,0,0),"inches"),
+    )+
+    #geom_sf(w)+
+    labs(
+      fill = "Proportion of species"
+    )
+
+ggplotly(p)%>% config(displayModeBar = F, scrollZoom =T)%>% layout(dragmode="pan"
+      )
+```
+
+1c) An approximate measure of completeness was calculated by taking the number of species with transcriptomes sequenced, compared to the predicted number of species in a grid cell.
