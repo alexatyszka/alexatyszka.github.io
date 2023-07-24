@@ -9,11 +9,58 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Poster Citations
+## Poster Text Citations
+He, Jian, Rudan Lyu, Yike Luo, Jiamin Xiao, Lei Xie, Jun Wen, Wenhe Li, Linying Pei, and Jin Cheng. ["A phylotranscriptome study using silica gel-dried leaf tissues produces an updated robust phylogeny of Ranunculaceae." Molecular Phylogenetics and Evolution 174 (2022): 107545.](https://doi.org/10.1016/j.ympev.2022.107545)
+
+Ruiz-Vargas, Natalia, Karolis Ramanauskas, Alexa S. Tyszka, Roberta J. Mason-Gamer, and Joseph F. Walker. ["Transcriptome data from silica-preserved leaf tissue reveals gene flow patterns in a Caribbean bromeliad." bioRxiv (2023): 2023-06.] (https://doi.org/10.1101/2023.06.16.545126)
 
 Yang, Ya, Michael J. Moore, Samuel F. Brockington, Alfonso Timoneda, Tao Feng, Hannah E. Marx, Joseph F. Walker, and Stephen A. Smith. ["An efficient field and laboratory workflow for plant phylotranscriptomic projects." _Applications in Plant Sciences_ 5, no. 3 (2017): 1600128.](https://doi.org/10.3732%2Fapps.1600128)
 
 
-## Inset table citations
+## Inset table DOI links
 
+[Ruiz-Vargas et al. 2023](https://doi.org/10.1101/2023.06.16.545126)
 
+[He et al. 2022](https://doi.org/10.1016/j.ympev.2022.107545)
+
+[Hamim 2022](https://doi.org/10.3389/fmicb.2022.930329)
+
+[Mark et al.. 2022](https://doi.org/10.21203/rs.3.rs-2387388/v1 )
+
+[Rieux et al. 2021](https://doi.org/10.1038/s41598-021-00518-w)
+
+[Jimenez et al. 2021](https://doi.org/10.1016/j.mex.2021.101496)
+
+[De Wever et al. 2020](https://doi.org/10.3389/fpls.2020.00992)
+
+[Fleming et al. 2019](https://doi.org/10.1093/aob/mcy217)
+
+[Fleming et al. 2017](https://doi.org/10.1093/jxb/erx100)
+
+[Mangeot-Peter et al. 2016](https://doi.org/10.3934/molsci.2016.4.560)
+
+[Hartung et al. 2015](https://doi.org/10.1094/PHYTO-03-15-0064-R)
+
+[García-Baldenegro et al. 2015](http://dx.doi.org/10.1016/j.ejbt.2015.01.002 )
+
+[Smith et al. 2014](https://pubmed.ncbi.nlm.nih.gov/24499968/)
+
+[Fordyce et al. 2013](https://doi.org/10.1371%2Fjournal.pone.0050961)
+
+[Sallon et al. 2008](https://doi.org/10.1126%2Fscience.1153600)
+
+[Natarajan et al. 2000](https://doi.org/10.2144/00296pf01)
+
+[Rollo 1985](https://doi.org/10.1007/bf00252076)
+
+## Image citations
+
+3a) Pitcairnia jimenezii. [Botanical specimen in the Botanischer Garten - Heidelberg, Germany. Author: Wikimedia Commons User	Daderot.](https://en.wikipedia.org/wiki/File:Pitcairnia_jimenezii_-_Botanischer_Garten_-_Heidelberg,_Germany_-_DSC01232.jpg)
+
+4a) Indicator colored silica gel, used for drying plant samples. [Author: Michael Opsölder, from hobby-photo.de](https://commons.wikimedia.org/wiki/File:SilicaGelOrange.jpg)
+
+4b) A gas-powered herbarium drying apparatus. Design of the Herbier de l'Université de Ouagadougou, Burkina Faso. [Author: 	Marco Schmidt.](https://commons.wikimedia.org/wiki/File:Drying_herbarium_specimens.jpg)
+
+[Background image 1.](https://commons.wikimedia.org/wiki/File:A_compleat_body_of_husbandry_Fleuron_T127634-11.png) 1757. Hale, Thomas, Esq. A compleat body of husbandry. 
+
+[Background image 2.](https://commons.wikimedia.org/wiki/File:A_new_universal_etymological_dictionary-_-_Originally_compiled_by_N_Fleuron_T087978-1.png) 1772. Scott, Joseph Nicol; Bailey, N. (Nathan). A new universal etymological dictionary.
