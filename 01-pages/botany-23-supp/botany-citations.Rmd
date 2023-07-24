@@ -10,48 +10,48 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Poster Text Citations
-He, Jian, Rudan Lyu, Yike Luo, Jiamin Xiao, Lei Xie, Jun Wen, Wenhe Li, Linying Pei, and Jin Cheng. ["A phylotranscriptome study using silica gel-dried leaf tissues produces an updated robust phylogeny of Ranunculaceae." Molecular Phylogenetics and Evolution 174 (2022): 107545.](https://doi.org/10.1016/j.ympev.2022.107545)
+He, Jian, Rudan Lyu, Yike Luo, Jiamin Xiao, Lei Xie, Jun Wen, Wenhe Li, Linying Pei, and Jin Cheng. ["A phylotranscriptome study using silica gel-dried leaf tissues produces an updated robust phylogeny of Ranunculaceae." _Molecular Phylogenetics and Evolution_ 174 (2022): 107545.](https://doi.org/10.1016/j.ympev.2022.107545)
 
-Ruiz-Vargas, Natalia, Karolis Ramanauskas, Alexa S. Tyszka, Roberta J. Mason-Gamer, and Joseph F. Walker. ["Transcriptome data from silica-preserved leaf tissue reveals gene flow patterns in a Caribbean bromeliad." bioRxiv (2023): 2023-06.] (https://doi.org/10.1101/2023.06.16.545126)
+Ruiz-Vargas, Natalia, Karolis Ramanauskas, Alexa S. Tyszka, Roberta J. Mason-Gamer, and Joseph F. Walker. ["Transcriptome data from silica-preserved leaf tissue reveals gene flow patterns in a Caribbean bromeliad." _bioRxiv_ (2023): 2023-06.](https://doi.org/10.1101/2023.06.16.545126)
 
 Yang, Ya, Michael J. Moore, Samuel F. Brockington, Alfonso Timoneda, Tao Feng, Hannah E. Marx, Joseph F. Walker, and Stephen A. Smith. ["An efficient field and laboratory workflow for plant phylotranscriptomic projects." _Applications in Plant Sciences_ 5, no. 3 (2017): 1600128.](https://doi.org/10.3732%2Fapps.1600128)
 
 
 ## Inset table DOI links
 
-[Ruiz-Vargas et al. 2023](https://doi.org/10.1101/2023.06.16.545126)
+Ruiz-Vargas, Natalia, Karolis Ramanauskas, Alexa S. Tyszka, Roberta J. Mason-Gamer, and Joseph F. Walker. ["Transcriptome data from silica-preserved leaf tissue reveals gene flow patterns in a Caribbean bromeliad." _bioRxiv_ (2023): 2023-06.](https://doi.org/10.1101/2023.06.16.545126)
 
-[He et al. 2022](https://doi.org/10.1016/j.ympev.2022.107545)
+He, Jian, Rudan Lyu, Yike Luo, Jiamin Xiao, Lei Xie, Jun Wen, Wenhe Li, Linying Pei, and Jin Cheng. ["A phylotranscriptome study using silica gel-dried leaf tissues produces an updated robust phylogeny of Ranunculaceae." _Molecular Phylogenetics and Evolution_ 174 (2022): 107545.](https://doi.org/10.1016/j.ympev.2022.107545)
 
-[Hamim 2022](https://doi.org/10.3389/fmicb.2022.930329)
+Hamim, Islam, Jon Y. Suzuki, Wayne B. Borth, Michael J. Melzer, Marisa M. Wall, and John S. Hu. ["Preserving plant samples from remote locations for detection of RNA and DNA viruses." _Frontiers in Microbiology_ 13 (2022): 930329.](https://doi.org/10.3389/fmicb.2022.930329)
 
-[Mark et al.. 2022](https://doi.org/10.21203/rs.3.rs-2387388/v1 )
+Mark, Deogratius, Geofrey Sikazwe, Maliha Saggaf, Fred Tairo, Joseph Ndunguru, Evangelista Chiunga, James Lusana, Elisiana Kweka, Reuben Maghembe, and Hilda Bachwenkizi. ["Assessing the effect of sample storage time on viral detection using a rapid and cost-effective CTAB-based extraction method." (2022).](https://doi.org/10.21203/rs.3.rs-2387388/v1 )
 
-[Rieux et al. 2021](https://doi.org/10.1038/s41598-021-00518-w)
+Rieux, Adrien, Paola Campos, Arnaud Duvermy, Sarah Scussel, Darren Martin, Myriam Gaudeul, Pierre Lefeuvre, Nathalie Becker, and Jean-Michel Lett. ["Contribution of historical herbarium small RNAs to the reconstruction of a cassava mosaic geminivirus evolutionary history." _Scientific Reports_ 11, no. 1 (2021): 21280.](https://doi.org/10.1038/s41598-021-00518-w)
 
-[Jimenez et al. 2021](https://doi.org/10.1016/j.mex.2021.101496)
+Jimenez, Jenyfer, Ana Maria Leiva, Cristian Olaya, Daniela Acosta-Trujillo, and Wilmer Jose Cuellar. ["An optimized nucleic acid isolation protocol for virus diagnostics in cassava (Manihot esculenta Crantz.)." _MethodsX_ 8 (2021): 101496.](https://doi.org/10.1016/j.mex.2021.101496)
 
-[De Wever et al. 2020](https://doi.org/10.3389/fpls.2020.00992)
+De Wever, Jocelyn, Dieter Tulkens, Jan Verwaeren, Helena Everaert, Hayley Rottiers, Koen Dewettinck, Steve Lefever, and Kathy Messens. ["A combined RNA preservation and extraction protocol for gene expression studies in cacao beans." _Frontiers in Plant Science_ 11 (2020): 992.](https://doi.org/10.3389/fpls.2020.00992)
 
-[Fleming et al. 2019](https://doi.org/10.1093/aob/mcy217)
+Fleming, Margaret B., Lisa M. Hill, and Christina Walters. ["The kinetics of ageing in dry-stored seeds: a comparison of viability loss and RNA degradation in unique legacy seed collections." _Annals of Botany_ 123, no. 7 (2019): 1133-1146.](https://doi.org/10.1093/aob/mcy217)
 
-[Fleming et al. 2017](https://doi.org/10.1093/jxb/erx100)
+Fleming, Margaret B., Christopher M. Richards, and Christina Walters. ["Decline in RNA integrity of dry-stored soybean seeds correlates with loss of germination potential." _Journal of Experimental Botany_ 68, no. 9 (2017): 2219-2230.](https://doi.org/10.1093/jxb/erx100)
 
-[Mangeot-Peter et al. 2016](https://doi.org/10.3934/molsci.2016.4.560)
+Mangeot-Peter, Lauralie, Sylvain Legay, Jean-Francois Hausman, and Gea Guerriero. ["How to store plant tissues in the absence of liquid nitrogen? Ethanol preserves the RNA integrity of Cannabis sativa stem tissues." _AIMS Molecular Science_ 3, no. 4 (2016): 560-566.](https://doi.org/10.3934/molsci.2016.4.560)
 
-[Hartung et al. 2015](https://doi.org/10.1094/PHYTO-03-15-0064-R)
+Hartung, John S., Avijit Roy, Shimin Fu, Jonathan Shao, William L. Schneider, and Ronald H. Brlansky. ["History and diversity of citrus leprosis virus recorded in herbarium specimens." _Phytopathology_ 105, no. 9 (2015): 1277-1284.](https://doi.org/10.1094/PHYTO-03-15-0064-R)
 
-[García-Baldenegro et al. 2015](http://dx.doi.org/10.1016/j.ejbt.2015.01.002 )
+García-Baldenegro, Claudia Vanessa, Irasema Vargas-Arispuro, María Islas-Osuna, Marisela Rivera-Domínguez, Emmanuel Aispuro-Hernández, and Miguel Ángel Martínez-Téllez. ["Total RNA quality of lyophilized and cryopreserved dormant grapevine buds." _Electronic Journal of Biotechnology_ 18, no. 2 (2015): 134-137.](http://dx.doi.org/10.1016/j.ejbt.2015.01.002 )
 
-[Smith et al. 2014](https://pubmed.ncbi.nlm.nih.gov/24499968/)
+Smith, Oliver, Alan Clapham, Pam Rose, Yuan Liu, Jun Wang, and Robin G. Allaby. ["A complete ancient RNA genome: identification, reconstruction and evolutionary history of archaeological Barley Stripe Mosaic Virus." _Scientific reports_ 4, no. 1 (2014): 4003.](https://pubmed.ncbi.nlm.nih.gov/24499968/)
 
-[Fordyce et al. 2013](https://doi.org/10.1371%2Fjournal.pone.0050961)
+Fordyce, Sarah L., Maria C. Avila-Arcos, Morten Rasmussen, Enrico Cappellini, J. Alberto Romero-Navarro, Nathan Wales, David E. Alquezar-Planas et al. ["Deep sequencing of RNA from ancient maize kernels." _PLoS_ One 8, no. 1 (2013): e50961.](https://doi.org/10.1371%2Fjournal.pone.0050961)
 
-[Sallon et al. 2008](https://doi.org/10.1126%2Fscience.1153600)
+Sallon, Sarah, Elaine Solowey, Yuval Cohen, Raia Korchinsky, Markus Egli, Ivan Woodhatch, Orit Simchoni, and Mordechai Kislev. ["Germination, genetics, and growth of an ancient date seed." _Science_ 320, no. 5882 (2008): 1464-1464.](https://doi.org/10.1126%2Fscience.1153600)
 
-[Natarajan et al. 2000](https://doi.org/10.2144/00296pf01)
+Natarajan, P., T. Trinh, L. Mertz, M. Goldsborough, and D. K. Fox. ["Paper based archiving of mammalian and plant samples for RNA analysis." _Biotechniques_ 29, no. 6 (2000): 1328-1333.](https://doi.org/10.2144/00296pf01)
 
-[Rollo 1985](https://doi.org/10.1007/bf00252076)
+Rollo, Franco. ["Characterisation by molecular hybridization of RNA fragments isolated from ancient (1400 BC) seeds." _Theoretical and applied genetics_ 71 (1985): 330-333.](https://doi.org/10.1007/bf00252076)
 
 ## Image citations
 
