@@ -1,5 +1,5 @@
 ---
-title: "Citations for Tyszka et al. Poster, Botany 2023"
+title: "Citations for poster: RNA-seq and prospects for obtaining non-model plant transcriptomes"
 author: "Alexa Tyszka"
 date: "`r Sys.Date()`"
 output: html_document

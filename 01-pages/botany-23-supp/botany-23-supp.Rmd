@@ -1,9 +1,9 @@
 ---
-title: "Botany 2023 Interactive Figures"
+title: "Interactive Figures: RNA-seq and prospects for obtaining non-model plant transcriptomes"
 author: "Alexa Tyszka"
 date: "`r Sys.Date()`"
 output: html_document
-runtime: shiny
+#runtime: shiny
 
 ---
 
@@ -22,11 +22,12 @@ w <- read_sf(dsn= "World_Countries_Generalized/World_Countries_Generalized.shp")
 buttonstoremove <- c('zoom2d', 'pan2d', "toImage", "select2d", "lasso2d", "autoScale2d", "hoverClosestCartesian", "hoverCompareCartesian")
 ```
 
+
 ## Figure 1a: Total global vascular plant species richness
 
 
 
-```{r fig1a, echo=FALSE, warning=FALSE, , out.width='100%'}
+```{r fig1a, echo=FALSE, warning=FALSE, out.width='375px', out.height="667px"}
 
   rich_whole = raster("rich_whole_4.tif")
 rwd <- as.data.frame(rich_whole, xy=T)
@@ -52,7 +53,9 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Number of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = T, scrollZoom =T, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan",
+xaxis = list(range = list(0, 60)),
+yaxis = list(range = list(0, 20))
       )
 ```
 
@@ -62,7 +65,7 @@ ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove 
 
 
 
-```{r fig1b, echo=FALSE, echo=FALSE, warning=FALSE, out.width='100%', fig.height=6}
+```{r fig1b, echo=FALSE, echo=FALSE, warning=FALSE, out.width='375px', out.height="667px"}
   rich_sra = raster("rich_just_sra_4.tif")
 rwd <- as.data.frame(rich_sra, xy=T)
 rwd$count <- rwd$scrubbed_species_binomial 
@@ -89,7 +92,9 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Number of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = T, scrollZoom =T, modeBarButtonsToRemove = buttonstoremove, responsive = F)%>% layout(dragmode="pan",
+xaxis = list(range = list(0, 60)),
+yaxis = list(range = list(0, 20))
       )
 ```
 
@@ -99,7 +104,7 @@ ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove 
 
 
 
-```{r fig1c, echo=FALSE, echo=FALSE, warning=FALSE, out.width='100%', fig.height=6}
+```{r fig1c, echo=FALSE, echo=FALSE, warning=FALSE, out.width='375px', out.height="667px"}
     adj = raster("adj_rich_4.tif")
 rwd <- as.data.frame(adj, xy=T)
 rwd$count <- rwd$scrubbed_species_binomial 
@@ -126,7 +131,9 @@ p  <- ggplot(rwd, plot.margin = margin(0, 0, 0, 0, "cm")) +
       fill = "Proportion of species"
     )
 
-ggplotly(p)%>% config(displayModeBar = T, scrollZoom =F, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan"
+ggplotly(p)%>% config(displayModeBar = T, scrollZoom =T, modeBarButtonsToRemove = buttonstoremove)%>% layout(dragmode="pan",
+xaxis = list(range = list(0, 60)),
+yaxis = list(range = list(0, 20))
       )
 ```
 
