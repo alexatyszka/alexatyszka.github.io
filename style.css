@@ -25,6 +25,7 @@ html{
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
 
+
     section {
 
     }
@@ -37,7 +38,7 @@ html{
     }
 
     .lead img {
-        width: 320px;
+        width: 120px;
         border-style: solid;
         border-color: var(--main_color);
         border-width: 5px;
@@ -46,7 +47,7 @@ html{
     .content-wrapper {
         display: flex;
         flex-direction: column;
-        width: 40%;
+        width: 60%;
         flex-wrap: wrap;
         background-color: rgba(255, 255, 255, 0.75);
         padding-right: 10px;
@@ -86,7 +87,9 @@ padding: 0.5rem 0.5rem 0.5rem 0.5rem;
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 
     }
-
+     p {
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    }
     section {
 
     }
@@ -157,6 +160,12 @@ h1 {
     padding-right: 5px;
     padding-left: 5px;
 }
+
+h3 {
+    font-family: "Arial";
+    padding-left: 5px;
+}
+
 
 a {
     text-decoration: none;
