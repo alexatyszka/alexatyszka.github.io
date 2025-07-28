@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Botany 2025 supplemental information and citations"
 author: "Alexa Tyszka"
 date: "`r Sys.Date()`"
 output: html_document
@@ -9,11 +9,20 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Detailed methods
-			Methods
-Arabidopsis thaliana col-0 seeds were vernalized for 2-3 days, sown in trays in the glasshouse, then harvested after approximately one month. Each tray contained space for 30 plants, and we sowed 10 trays for each batch. Plants were large enough that 1-3 leaves were suﬃcient to reach 100 g of tissue. For each treatment, 3 samples of∼100 g of issue were collected on the harvest date. Most plants had reached the flowering stage.
-~100 mg of leaf tissue in the form of whole leaves were preserved for each sample. The five preservation conditions are detailed below. RNA was extracted using the Sigma Spectrum Plant total RNA kit, and RNA quality was analyzed using a nanodrop and a tapestation.
+## Read the papers here!
 
-## Citations
+
+[[1] Tyszka, A. S., Larson, D. A., & Walker, J. F. (2025). Sequencing historical RNA: unrealized potential to increase understanding of the plant tree of life. Trends in Plant Science, 30(7), 705-711.](https://www.cell.com/trends/plant-science/fulltext/S1360-1385(24)00305-4)
+
+[[2] Ruiz-Vargas, N., Ramanauskas, K., Tyszka, A. S., Bretz, E. C., Yeo, M. T., Mason-Gamer, R. J., & Walker, J. F. (2024). Transcriptome data from silica-preserved leaf tissue reveal gene flow patterns in a Caribbean bromeliad. Annals of Botany, 133(3), 459-472.](https://academic.oup.com/aob/article/133/3/459/7512022)
+
+[[3] Tyszka, A. S., Chia, K. S., Bretz, E. C., Mansour, L., Larson, D. A., Carella, P., & Walker, J. F. (2025). Herbaria provide a valuable resource for obtaining informative mRNA. bioRxiv, 2025-02.](https://www.biorxiv.org/content/10.1101/2025.02.12.637878v1.abstract)
+
+## Detailed methods
+
+Arabidopsis thaliana col-0 seeds were vernalized for 2-3 days, sown in trays in the glasshouse, then harvested after approximately one month. Each tray contained space for 30 plants, and we sowed 10 trays for each batch. Plants were large enough that 1-3 leaves were suﬃcient to reach 100 g of tissue. For each treatment, 3 samples of∼100 g of issue were collected on the harvest date. Most plants had reached the flowering stage.
+~100 mg of leaf tissue in the form of whole leaves were preserved for each sample. RNA was extracted using the Sigma Spectrum Plant total RNA kit, and RNA quality was analyzed using a NanoDrop and a TapeStation.
+
+
 
 
