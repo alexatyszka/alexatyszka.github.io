@@ -98,10 +98,8 @@ a:focus {
 
 .home {
   background-image: url(s_trunc_transp.png);
-  background-repeat: no-repeat;
   background-position: bottom right;
   background-attachment: scroll;
-  background-size: auto 50%;
 }
 
 /* ========================================
