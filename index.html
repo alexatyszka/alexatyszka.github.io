@@ -1,125 +1,158 @@
 <!DOCTYPE html>
-<!-- the following is HEAVILY referenced with permission from kr and ld's websites: http://karol.is/ ; https://ledelaney.org/ -->
-<!--https://practicalseries.com/1001-webdevelopment/04-02-starting.html; https://instruct.uwo.ca/fim-lis/9723/resources/filestructure.htm--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexa Tyszka | University of Illinois, Chicago</title>
+  <meta name="description" content="Alexa Tyszka is a Ph.D. Candidate in Ecology &amp; Evolution at the University of Illinois at Chicago, studying plant phylogenetics, Caryophyllales, and carnivorous plant evolution.">
+  <link rel="canonical" href="https://atyszka.org/">
+  <link rel="icon" href="favicon.ico">
+  <meta name="theme-color" content="#a9ad72">
 
-<html lang="en"><head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7D7W40Q8XE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Open Graph -->
+  <meta property="og:title" content="Alexa Tyszka | Plant Evolutionary Biologist">
+  <meta property="og:description" content="Ph.D. Candidate studying plant phylogeny and evolution at UIC.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://atyszka.org/">
+  <meta property="og:image" content="https://atyszka.org/images/image000000.jpeg">
 
-  gtag('config', 'G-7D7W40Q8XE');
-</script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <title>Alexa Tyszka | University of Illinois, Chicago</title>
-    <meta name="description" content="Alexa is a Ph.D Candidate studying plant phylogeny and evolution.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Alexa Tyszka | Plant Evolutionary Biologist">
+  <meta name="twitter:description" content="Ph.D. Candidate studying plant phylogeny and evolution at UIC.">
 
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/8ac85d39ba.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="favicon.ico">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alexa Tyszka",
+    "url": "https://atyszka.org",
+    "email": "mailto:atyszka2@uic.edu",
+    "jobTitle": "Ph.D. Candidate, Ecology & Evolution",
+    "affiliation": {
+      "@type": "EducationalOrganization",
+      "name": "University of Illinois at Chicago"
+    },
+    "description": "Ph.D. Candidate studying plant phylogeny and evolution, specializing in Caryophyllales and carnivorous plants.",
+    "image": "https://atyszka.org/images/image000000.jpeg",
+    "sameAs": [
+      "https://github.com/alexatyszka",
+      "https://scholar.google.com/citations?user=P67UxboAAAAJ&hl=en",
+      "https://bsky.app/profile/atyszka.org",
+      "https://www.linkedin.com/in/alexa-tyszka/"
+    ]
+  }
+  </script>
 
+  <!-- Analytics: loads only after cookie consent -->
+  <script src="cookie-consent.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8ac85d39ba.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="home">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<div class="top-wrapper">
-   <div class="lead">
+  <div class="page-layout">
 
-    <img src="images/image000000.jpeg" alt="a photo of the author">
+    <header class="lead">
+      <img src="images/image000000.jpeg" alt="Headshot of Alexa Tyszka">
+      <h1>Alexa Tyszka</h1>
+      <p class="subtitle">
+        <i class="fa-solid fa-seedling" aria-hidden="true"></i><br>
+        Ph.D. Candidate, Ecology &amp; Evolution<br>
+        University of Illinois at Chicago<br>
+        Walker Lab
+      </p>
+      <nav class="contact" aria-label="Contact and profiles">
+        <a href="mailto:atyszka2@uic.edu" aria-label="Email Alexa">
+          <i class="fas fa-envelope-open-text fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/alexatyszka" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+          <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=P67UxboAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile">
+          <i class="fa-solid fa-graduation-cap fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://bsky.app/profile/atyszka.org" target="_blank" rel="noopener noreferrer" aria-label="Bluesky profile">
+          <i class="fa-brands fa-bluesky fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/alexa-tyszka/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+          <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="/" aria-label="Home">
+          <i class="fa-solid fa-house fa-2x" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </header>
 
-    <h1>Alexa Tyszka</h1>
-    <h2><i class="fa-solid fa-seedling"></i>  <br>
-        Ph.D. Candidate, Ecology & Evolution<br>
+    <main class="content-wrapper" id="main-content">
+      <div class="about">
 
-         University of Illinois at Chicago <br>
+        <!-- About -->
+        <section aria-labelledby="about-heading">
+          <h2 id="about-heading"><i class="fa-solid fa-mug-hot" aria-hidden="true"></i> about me</h2>
+          <p>Nice to meet you! I am broadly interested in plant evolution and phylogenetics, specifically within <i>Caryophyllales</i> and carnivorous plants across disparate families. In my work I attempt to optimize analyses of large-scale genetic data with tools in <a href="https://cran.r-project.org/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-r-project" aria-hidden="true"></i></a> and python <i class="fa-brands fa-python" aria-hidden="true"></i>.</p>
+        </section>
 
-     Walker Lab </h2>
+        <!-- Publications -->
+        <section aria-labelledby="work-heading">
+          <h2 id="work-heading"><i class="fa-regular fa-paper-plane" aria-hidden="true"></i> recent work</h2>
+          <ul>
+            <li><b>Tyszka AS</b>, Chia KS, Bretz EC, Mansour L, Larson DA, Carella P, Walker JF. Herbaria provide a valuable resource for obtaining informative mRNA. <i>bioRxiv preprint</i>. 2025:2025-02. <a href="https://doi.org/10.1101/2025.02.12.637878" target="_blank" rel="noopener noreferrer">https://doi.org/10.1101/2025.02.12.637878</a></li>
+            <li>Grenz K, Chia KS, Turley EK, <b>Tyszka AS</b>, Atkinson RE, Reeves J, Vickers M, Rejzek M, Walker JF, Carella P. A necrotizing toxin enables Pseudomonas syringae infection across evolutionarily divergent plants. <i>Cell Host &amp; Microbe</i>. 2025 Jan 8;33(1):20-9. <a href="https://doi.org/10.1016/j.chom.2024.11.014" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.chom.2024.11.014</a></li>
+            <li><b>Tyszka AS</b>, Larson DA, Walker JF. Sequencing historical RNA: unrealized potential to increase understanding of the plant tree of life. <i>Trends in Plant Science</i>. 2024 Nov 29. <a href="https://doi.org/10.1016/j.tplants.2024.11.004" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.tplants.2024.11.004</a></li>
+            <li>Ruiz-Vargas N, Ramanauskas K, <b>Tyszka AS</b>, Bretz EC, Yeo MT, Mason-Gamer RJ, Walker JF. Transcriptome data from silica-preserved leaf tissue reveal gene flow patterns in a Caribbean bromeliad. <i>Annals of Botany</i>. 2024 Mar 1;133(3):459-72. <a href="https://doi.org/10.1093/aob/mcae002" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/aob/mcae002</a></li>
+            <li><b>Tyszka AS</b>, Bretz EC, Robertson HM, Woodcock-Girard MD, Ramanauskas K, Larson DA, Stull GW and Walker JF (2023) Characterizing conflict and congruence of molecular evolution across organellar genome sequences for phylogenetics in land plants. <i>Front. Plant Sci.</i> 14:1125107. <a href="https://doi.org/10.3389/fpls.2023.1125107" target="_blank" rel="noopener noreferrer">doi: 10.3389/fpls.2023.1125107</a></li>
+          </ul>
+        </section>
 
-    <div class="contact">
-        <a href="mailto:atyszka2@uic.edu" target="_blank"> <i class="fas fa-envelope-open-text fa-2x" aria-hidden="true"></i></a>
-        <a href="https://github.com/alexatyszka"><i class="fa-brands fa-github fa-2x"></i></a>
-        <a href="https://scholar.google.com/citations?user=P67UxboAAAAJ&hl=en"><i class="fa-solid fa-graduation-cap fa-2x"></i></a>
-        <a href="https://bsky.app/profile/atyszka.org"><i class="fa-brands fa-bluesky fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/alexa-tyszka/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                <a href="/"><i class="fa-solid fa-house fa-2x"></i></a>
-</div>
+        <!-- Updates -->
+        <section aria-labelledby="updates-heading">
+          <h2 id="updates-heading"><i class="fa-regular fa-newspaper" aria-hidden="true"></i> updates</h2>
+          <ul>
+            <li><b>July 2024:</b> Presented my first talk, titled <i>Prospects for expanding the plant tree of life with historical RNA sequencing</i> at Botany 2024 in Montreal.</li>
+            <li><b>July 2023:</b> Find a <a href="01-pages/botany-23-supp/botany_23_Tyszka_poster.pdf">.pdf copy</a> of my Botany 2023 poster here. <a href="01-pages/botany-23-supp/botany-23-supp.html">The interactive figures</a> and <a href="01-pages/botany-23-supp/botany-citations.html">source citations from the poster</a> are also available.</li>
+            <li><b>June 2022:</b> I attended Evolution 2022 in Cleveland, Ohio, and was excited to present a poster on the topic of <i>Cactus Virus X</i>. Photo below!
+              <ul>
+                <li><img src="IMG-0735.jpg" alt="Alexa standing in front of her conference poster." class="poster-img"></li>
+              </ul>
+            </li>
+            <li><b>2021:</b> <a href="https://bios.uic.edu/news-stories/undergraduate-alexa-tyszka-awarded-national-science-foundation-graduate-research-fellowship/" target="_blank" rel="noopener noreferrer"><i>Alexa Tyszka wins the NSF GRFP award.</i></a></li>
+          </ul>
+        </section>
 
-</div>
-<div class="content-wrapper">
-   <div class="about">
-<!--SAMPLE SECTION:-->
-    <!--<h2><i class="fa-solid fa-mug-hot"></i> about me</h2>
+      </div><!-- /.about -->
 
-    <p>Nice to meet you! I am broadly interested in plant evolution and phylogenetics, specifically within <i>Caryophyllales</i> and carnivorous plants within many separate groups. In my work I optimize analyses of large-scale genetic data with tools in <a href="https://cran.r-project.org/"><i class="fa-brands fa-r-project"></i></a> and python <i class="fa-brands fa-python"></i>.</p>
-    <ul>
-    <li>  This is a <i>list</i> with a <a href="https://igic.lab.uic.edu/">link to a website</a> imbedded.</li>
-    <li> This is the second list item.</li>
-</ul>
--->
+      <footer>
+        Last modified: Feb 17 2025 &thinsp;&middot;&thinsp;
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-creative-commons" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-by" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-sa" aria-hidden="true"></i>
+        </a><br>
+        Background image attribution (Schlumbergera):
+        <a href="https://commons.wikimedia.org/wiki/File:Schlumbergera_truncata_BlKakteenT25.jpg" target="_blank" rel="noopener noreferrer">Public domain.</a>
+        Icon attribution:
+        <a href="https://www.rawpixel.com/image/2702145/free-illustration-png-zodiac-mucha-art-nouveau" target="_blank" rel="noopener noreferrer">Alphonse Mucha.</a>
+      </footer>
 
-<!--ABOUT ME--->
-    <h2><i class="fa-solid fa-mug-hot"></i> about me</h2>
+    </main><!-- /.content-wrapper / #main-content -->
 
-    <p>Nice to meet you! I am broadly interested in plant evolution and phylogenetics, specifically within <i>Caryophyllales</i> and carnivorous plants across disparate families. In my work I attempt to optimize analyses of large-scale genetic data with tools in <a href="https://cran.r-project.org/"><i class="fa-brands fa-r-project"></i></a> and python <i class="fa-brands fa-python"></i>.</p>
-    
+  </div><!-- /.page-layout -->
 
-<!--PUBLICATIONS vancouver style--->
-<h2><i class="fa-regular fa-paper-plane"></i> recent work</h2>
-    <ul>
-        <li> <b>Tyszka AS</b>, Chia KS, Bretz EC, Mansour L, Larson DA, Carella P, Walker JF. Herbaria provide a valuable resource for obtaining informative mRNA. <i>bioRxiv preprint</i>. 2025:2025-02. <a href="https://doi.org/10.1101/2025.02.12.637878">https://doi.org/10.1101/2025.02.12.637878</a></li>
-        <li>Grenz K, Chia KS, Turley EK, <b>Tyszka AS</b>, Atkinson RE, Reeves J, Vickers M, Rejzek M, Walker JF, Carella P. A necrotizing toxin enables Pseudomonas syringae infection across evolutionarily divergent plants. <i>Cell Host & Microbe</i>. 2025 Jan 8;33(1):20-9. <a href="https://doi.org/10.1016/j.chom.2024.11.014">https://doi.org/10.1016/j.chom.2024.11.014</a></li>
-        <li><b>Tyszka AS</b>, Larson DA, Walker JF. Sequencing historical RNA: unrealized potential to increase understanding of the plant tree of life. <i>Trends in Plant Science</i>. 2024 Nov 29. <a href="https://doi.org/10.1016/j.tplants.2024.11.004">https://doi.org/10.1016/j.tplants.2024.11.004</a></li>
-        
-        <li> Ruiz-Vargas N, Ramanauskas K, <b>Tyszka AS</b>, Bretz EC, Yeo MT, Mason-Gamer RJ, Walker JF. Transcriptome data from silica-preserved leaf tissue reveal gene flow patterns in a Caribbean bromeliad. <i>Annals of Botany</i>. 2024 Mar 1;133(3):459-72. <a href="https://doi.org/10.1093/aob/mcae002">https://doi.org/10.1093/aob/mcae002 </a></li>
-
-        <li><b>Tyszka AS</b>, Bretz EC, Robertson HM, Woodcock-Girard MD, Ramanauskas K, Larson DA, Stull GW and Walker JF (2023) Characterizing conflict and congruence of molecular evolution across organellar genome sequences for phylogenetics in land plants. <i>Front. Plant Sci.</i> 14:1125107.<a href="https://doi.org/10.3389/fpls.2023.1125107">
-doi: 10.3389/fpls.2023.1125107</a> </li>
-
-    <!--<li> This is the second list item.</li>-->
-</ul>
-
-
-<!--NEWS--->
-    <h2><i class="fa-regular fa-newspaper"></i> updates</h2>
-<ul>
-<!--    <li><b> </b> </li>-->
-        <li><b> July 2024: </b> Presented my first talk, titled <i>Prospects for expanding the plant tree of life
-with historical RNA sequencing</i> at Botany 2024 in Montreal. </li>
-    <li> <b> July 2023:</b> Find a 
-        <a href="01-pages/botany-23-supp/botany_23_Tyszka_poster.pdf">.pdf copy</a> of my Botany 2023 poster here. 
-    <a href="01-pages/botany-23-supp/botany-23-supp.html">The interactive figures</a> and 
-    <a href="01-pages/botany-23-supp/botany-citations.html">source citations from the poster</a> are also available.  </li>
-    
-    <li> <b>June 2022:</b> I attended Evolution 2022 in Cleveland, Ohio, and was excited to present a poster on the topic of <i>Cactus Virus X</i>. Photo below!</li>
-        <ul><li><img src="IMG-0735.jpg" alt="Alexa standing in front of her conference poster." style="width:300px; ;"></li></ul>
-    <li> <b>2021:</b> <a href="https://bios.uic.edu/news-stories/undergraduate-alexa-tyszka-awarded-national-science-foundation-graduate-research-fellowship/"><i>Alexa Tyszka wins the NSF GRFP award.</i></a></li>
-</ul>
-
-<!--<h2><i class="fa-solid fa-bars-progress"></i> current projects </h2>
-<img src="schlumbergera.jpg" alt="S. truncata" style="width:300px; ;">
-<p><i>Schlumbergera truncata sample at the UIC greenhouse.</i></p>
-<ul>
-    <li>  I am working on a manuscript describing the taxonomy of Cactus Virus X, which was incidentally found on <i>Schlumbergera</i> samples isolated during an <a href="https://igic.lab.uic.edu/">Igić lab</a> project.</li>
-    <li> I am also working to sequence carnivorous plants within <i>Dioncophyllaceae</i> with the intent of producing detailed transcriptomes and species/gene tree analysis.</li>
-    <li> I should also really protect my main branch on github...</li> 
-</ul> -->
-
-
-    <footer class="main">
-
-    Last modified: Feb 17 2025  ∙ <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><i class="fab fa-creative-commons" aria-hidden="true"></i> <i class="fab fa-creative-commons-by" aria-hidden="true"></i> <i class="fab fa-creative-commons-sa" aria-hidden="true"></i></a><br>
-    Background image attribution (Schlumbergera): <a href="https://commons.wikimedia.org/wiki/File:Schlumbergera_truncata_BlKakteenT25.jpg">Public domain. </a>
-    Icon attribution: 
-    <a href="https://www.rawpixel.com/image/2702145/free-illustration-png-zodiac-mucha-art-nouveau"> Alphonse Mucha. </a>
-
-
-   </footer>
-
-</div>
+  <!-- Cookie consent banner -->
+  <div id="cookie-banner" hidden role="region" aria-label="Cookie notice">
+    <div class="cookie-inner">
+      <p>This site uses Google Analytics to understand visitor traffic. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy policy</a></p>
+      <div class="cookie-actions">
+        <button onclick="acceptCookies()">Accept</button>
+        <button onclick="declineCookies()">Decline</button>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
