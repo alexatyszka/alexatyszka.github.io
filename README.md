@@ -68,26 +68,7 @@ preference is stored in `localStorage` under the key `cookie-consent`.
 
 - **W3C HTML validator:** <https://validator.w3.org/nu/?doc=https%3A%2F%2Fatyszka.org%2F>
 - **Google Search Console:** submit `sitemap.xml` after deploying to help with indexing
-- **Last page update:** February 17, 2025
-
----
-
-## Draft: Current Projects
-
-These were drafted but are not yet ready to publish on the site.
-
-### Cactus Virus X / *Schlumbergera*
-
-Working on a manuscript describing the taxonomy of Cactus Virus X, incidentally found on
-*Schlumbergera* samples isolated during an [Igić lab](https://igic.lab.uic.edu/) project.
-
-Asset on disk: `schlumbergera.jpeg` — photo of *S. truncata* from the UIC greenhouse.
-Suggested section icon when ready: `fa-bars-progress`.
-
-### *Dioncophyllaceae*
-
-Working to sequence carnivorous plants within *Dioncophyllaceae* with the intent of producing
-detailed transcriptomes and species/gene tree analyses.
+- **Last page update:** April 17, 2026
 
 ---
 

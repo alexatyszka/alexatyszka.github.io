@@ -37,3 +37,8 @@ function declineCookies() {
   localStorage.setItem('cookie-consent', 'declined');
   document.getElementById('cookie-banner').setAttribute('hidden', '');
 }
+
+function resetCookieConsent() {
+  localStorage.removeItem('cookie-consent');
+  showCookieBanner();
+}

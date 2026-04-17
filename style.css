@@ -128,7 +128,6 @@ a:focus {
   row-gap: 0.3rem;
   justify-content: center;
   align-items: center;
-  align-items: center;
   padding: 0.75rem 1rem;
   background-color: #fff;
   position: sticky;
@@ -354,6 +353,12 @@ footer {
   color: #fff;
 }
 
+#cookie-banner .cookie-manage {
+  background-color: transparent;
+  color: var(--color-link);
+  border: 1px solid var(--color-link);
+}
+
 #cookie-banner button:hover,
 #cookie-banner button:focus {
   background-color: var(--color-link-hover);
@@ -394,14 +399,13 @@ footer {
 /* ========================================
    Desktop (≥ 901px)
    ======================================== */
-   .home {
-     background-attachment: fixed;
-     background-size: auto auto;
-     width: 100vw;
-     height: 100bh;
-   }
-
 @media (min-width: 901px) {
+  .home {
+    background-attachment: fixed;
+    background-size: auto auto;
+    width: 100vw;
+    height: 100vh;
+  }
 
   .page-layout {
     flex-direction: row;
