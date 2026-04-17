@@ -1,0 +1,54 @@
+/* ========================================
+   CSS Variables & Base Reset
+   ======================================== */
+
+:root {
+  --color-sage: rgb(169, 173, 114);
+  --color-link: rgb(87, 91, 46);
+  --color-link-hover: rgb(152, 100, 30);
+  --font-serif: "Charter-Racket", Georgia, "Times New Roman", serif;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  font-family: var(--font-serif);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+  background: var(--color-sage);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}

@@ -1,0 +1,125 @@
+@import url("supp.css");
+
+/* ===== Citations page specific overrides ===== */
+.container-fluid.main-container {
+  max-width: 800px;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+#selected-studies table {
+  display: table;
+  width: 100%;
+}
+
+#selected-studies table thead {
+  background-color: var(--color-sage);
+  color: #fff;
+}
+
+#selected-studies table thead th {
+  padding: 0.5rem 0.75rem;
+}
+
+#selected-studies table thead th {
+  text-align: left;
+}
+
+#selected-studies table td,
+#selected-studies table th {
+  vertical-align: middle;
+  white-space: normal;
+  padding: 0.5rem 0.75rem;
+  line-height: 1.5;
+}
+
+#selected-studies table tbody tr:nth-child(even) {
+  background-color: rgba(169, 173, 114, 0.12);
+}
+
+#selected-studies table tbody tr:hover {
+  background-color: rgba(169, 173, 114, 0.25);
+}
+
+#selected-studies table {
+  border: 1px solid var(--color-sage);
+  font-size: 0.95rem;
+}
+
+#header {
+  flex-wrap: wrap;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content p {
+  margin: 0.25rem 0;
+}
+
+.header-content h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-plant {
+  margin-top: 1rem;
+}
+
+.poster-authors {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+}
+
+.poster-affiliations {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.poster-meta {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-sage);
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
+
+#header h1.title {
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+#header h4.author,
+#header h4.date {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+}
+
+.section.level2 {
+  padding: 1rem 1.25rem;
+}
+
+.section.level2 h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  .container-fluid.main-container {
+    width: 96%;
+    margin: 1rem auto;
+  }
+}

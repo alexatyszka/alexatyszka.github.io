@@ -1,7 +1,7 @@
 # atyszka.org
 
 Personal academic portfolio for Alexa Tyszka, Ph.D. Candidate in Ecology & Evolution at the
-University of Illinois at Chicago. Research focus: plant phylogenetics, *Caryophyllales*, and
+University of Illinois at Chicago. Research focus: plant phylogenetics, _Caryophyllales_, and
 carnivorous plant evolution.
 
 **Live site:** [atyszka.org](https://atyszka.org)
@@ -10,18 +10,18 @@ carnivorous plant evolution.
 
 ## File Structure
 
-| File / Folder | Purpose |
-|---|---|
-| `index.html` | Main portfolio page |
-| `style.css` | All styles — mobile-first, 3 breakpoints (base / ≥600px / ≥901px) |
-| `cookie-consent.js` | GDPR consent logic; defers Google Analytics until visitor accepts |
-| `404.html` | Custom not-found page (served automatically by GitHub Pages) |
-| `sitemap.xml` | XML sitemap for search engine indexing |
-| `robots.txt` | Crawler directives; points to sitemap |
-| `favicon.ico` | Site icon |
-| `s_trunc_transp.png` | Decorative background image (*Schlumbergera*, public domain) |
-| `images/` | Profile photo |
-| `01-pages/` | Supplementary pages: conference poster files, R-generated figures, misc |
+| File / Folder        | Purpose                                                                 |
+| -------------------- | ----------------------------------------------------------------------- |
+| `index.html`         | Main portfolio page                                                     |
+| `style.css`          | All styles — mobile-first, 3 breakpoints (base / ≥600px / ≥901px)       |
+| `cookie-consent.js`  | GDPR consent logic; defers Google Analytics until visitor accepts       |
+| `404.html`           | Custom not-found page (served automatically by GitHub Pages)            |
+| `sitemap.xml`        | XML sitemap for search engine indexing                                  |
+| `robots.txt`         | Crawler directives; points to sitemap                                   |
+| `favicon.ico`        | Site icon                                                               |
+| `s_trunc_transp.png` | Decorative background image (_Schlumbergera_, public domain)            |
+| `images/`            | Profile photo                                                           |
+| `01-pages/`          | Supplementary pages: conference poster files, R-generated figures, misc |
 
 ---
 
@@ -46,7 +46,9 @@ Copy this template into `index.html` inside `<div class="about">`. Give each sec
   <h2 id="section-id">
     <i class="fa-solid fa-icon-name" aria-hidden="true"></i> Section Title
   </h2>
-  <p>Paragraph content with an <a href="https://example.com">embedded link</a>.</p>
+  <p>
+    Paragraph content with an <a href="https://example.com">embedded link</a>.
+  </p>
   <ul>
     <li>List item one</li>
     <li>List item two</li>
@@ -84,6 +86,6 @@ Additional HTML/CSS references used during initial development:
 - <https://practicalseries.com/1001-webdevelopment/04-02-starting.html>
 - <https://instruct.uwo.ca/fim-lis/9723/resources/filestructure.htm>
 
-Background image: [*Schlumbergera truncata*](https://commons.wikimedia.org/wiki/File:Schlumbergera_truncata_BlKakteenT25.jpg), public domain.
+Background image: [_Schlumbergera truncata_](https://commons.wikimedia.org/wiki/File:Schlumbergera_truncata_BlKakteenT25.jpg), public domain.
 Decorative icon: [Alphonse Mucha](https://www.rawpixel.com/image/2702145/free-illustration-png-zodiac-mucha-art-nouveau).
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
