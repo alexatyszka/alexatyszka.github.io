@@ -6,9 +6,18 @@
   --color-sage: rgb(169, 173, 114);
   --color-link: rgb(87, 91, 46);
   --color-link-hover: rgb(152, 100, 30);
+  --color-white: #fff;
+  --color-sage-border: rgba(169, 173, 114, 0.4);
+
   --font-serif: "Charter-Racket", Georgia, "Times New Roman", serif;
   --font-sans: Arial, Helvetica, sans-serif;
-  --color-sage-border: rgba(169, 173, 114, 0.4);
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 0.625rem;
+  --spacing-lg: 0.75rem;
+  --spacing-xl: 1rem;
+  --spacing-2xl: 1.5rem;
 }
 
 *,
@@ -44,7 +53,7 @@ img {
   z-index: 1000;
   padding: 0.5rem 1rem;
   background: var(--color-sage);
-  color: #fff;
+  color: var(--color-white);
   font-family: var(--font-sans);
   font-weight: bold;
   text-decoration: none;
@@ -52,4 +61,19 @@ img {
 
 .skip-link:focus {
   top: 0;
+}
+
+/* ========================================
+   Utility Classes
+   ======================================== */
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid var(--color-sage);
+  background-color: var(--color-white);
+  overflow: hidden;
 }

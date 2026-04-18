@@ -1,0 +1,58 @@
+/* 2024 supplement page overrides — base styles live in supp.css */
+
+#header {
+  align-items: flex-start;
+}
+
+.section.level2 h2 {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+table {
+  font-size: 0.9rem;
+}
+
+code,
+pre {
+  font-size: 0.875rem;
+}
+
+.header-plant figcaption {
+  margin-top: 0.35rem;
+}
+
+/* supp.css collapses the header at 600px; keep it as a row until 500px */
+@media (min-width: 501px) and (max-width: 600px) {
+  #header {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 500px) {
+  #header {
+    flex-direction: column;
+  }
+
+  .header-plant {
+    flex: none;
+    width: 100%;
+  }
+
+  .header-plant img {
+    width: 100%;
+    height: 180px;
+  }
+}
+
+#read-the-papers-here p {
+  padding-left: 2.5rem;
+  text-indent: -2.5rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.92rem;
+}
+
+#read-the-papers-here p:not(:last-child) {
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid rgba(169, 173, 114, 0.25);
+}

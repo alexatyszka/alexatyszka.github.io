@@ -21,7 +21,7 @@ carnivorous plant evolution.
 | `favicon.ico`        | Site icon                                                               |
 | `s_trunc_transp.png` | Decorative background image (_Schlumbergera_, public domain)            |
 | `images/`            | Profile photo                                                           |
-| `01-pages/`          | Supplementary pages: conference poster files, R-generated figures, misc |
+| `pages/`          | Supplementary pages: conference poster files, R-generated figures, misc |
 
 ---
 
