@@ -8,7 +8,7 @@ function gtag() {
 }
 
 (function () {
-  var consent = localStorage.getItem("cookie-consent");
+  const consent = localStorage.getItem("cookie-consent");
   if (consent === "granted") {
     loadAnalytics();
   } else if (!consent) {
@@ -17,7 +17,7 @@ function gtag() {
 })();
 
 function loadAnalytics() {
-  var s = document.createElement("script");
+  const s = document.createElement("script");
   s.async = true;
   s.src = "https://www.googletagmanager.com/gtag/js?id=G-7D7W40Q8XE";
   document.head.appendChild(s);

@@ -10,7 +10,7 @@
 
 section {
   border: 1px solid var(--color-sage);
-  background-color: white;
+  background-color: #fff;
   padding: 0.5rem;
 }
 
@@ -161,22 +161,3 @@ section {
   }
 }
 
-/* ========================================
-   Poster image
-   ======================================== */
-
-.poster-img {
-  max-width: 300px;
-  width: 100%;
-  margin-top: 0.5rem;
-}
-
-/* ========================================
-   Citation helper
-   ======================================== */
-
-.citation {
-  font-size: 0.875rem;
-  text-indent: -5%;
-  margin-left: 5%;
-}
