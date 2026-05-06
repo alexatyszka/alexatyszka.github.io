@@ -1,0 +1,129 @@
+/* ========================================
+   PDF Embed
+   ======================================== */
+
+.pdf-embed {
+  width: 100%;
+  overflow: auto;
+}
+
+.pdf-embed iframe {
+  width: 100%;
+  border: none;
+}
+
+/* ========================================
+   Animations
+   ======================================== */
+
+@keyframes sectionReveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .about > section {
+    animation: sectionReveal 0.45s ease-out both;
+  }
+
+  .about > section:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+
+  .about > section:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+}
+
+/* ========================================
+   Footer
+   ======================================== */
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 2.5rem var(--spacing-xl) var(--spacing-xl);
+  line-height: 1.6;
+}
+
+/* ========================================
+   Cookie Banner
+   ======================================== */
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: var(--spacing-lg) 1.25rem;
+  background-color: var(--color-white);
+  border-top: 3px solid var(--color-sage);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#cookie-banner:not([hidden]) {
+  display: flex;
+  justify-content: center;
+}
+
+.cookie-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 860px;
+  width: 100%;
+}
+
+.cookie-inner p {
+  margin: 0;
+  flex: 1;
+}
+
+.cookie-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+#cookie-banner button {
+  padding: 0.35rem var(--spacing-xl);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid var(--color-link);
+  background-color: transparent;
+  color: var(--color-link);
+  border-radius: 2px;
+  transition:
+    background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
+}
+
+#cookie-banner button:first-child {
+  background-color: var(--color-link);
+  color: var(--color-white);
+}
+
+#cookie-banner .cookie-manage {
+  background-color: transparent;
+  color: var(--color-link);
+  border: 1px solid var(--color-link);
+}
+
+#cookie-banner button:hover,
+#cookie-banner button:focus {
+  background-color: var(--color-link-hover);
+  border-color: var(--color-link-hover);
+  color: var(--color-white);
+}

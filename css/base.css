@@ -1,0 +1,79 @@
+/* ========================================
+   CSS Variables & Base Reset
+   ======================================== */
+
+:root {
+  --color-sage: rgb(169, 173, 114);
+  --color-link: rgb(87, 91, 46);
+  --color-link-hover: rgb(152, 100, 30);
+  --color-white: #fff;
+  --color-sage-border: rgba(169, 173, 114, 0.4);
+
+  --font-serif: "Charter-Racket", Georgia, "Times New Roman", serif;
+  --font-sans: Arial, Helvetica, sans-serif;
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 0.625rem;
+  --spacing-lg: 0.75rem;
+  --spacing-xl: 1rem;
+  --spacing-2xl: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  font-family: var(--font-serif);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  line-height: 1.7;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+  background: var(--color-sage);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ========================================
+   Utility Classes
+   ======================================== */
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid var(--color-sage);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
