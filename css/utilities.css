@@ -1,18 +1,4 @@
 /* ========================================
-   PDF Embed
-   ======================================== */
-
-.pdf-embed {
-  width: 100%;
-  overflow: auto;
-}
-
-.pdf-embed iframe {
-  width: 100%;
-  border: none;
-}
-
-/* ========================================
    Animations
    ======================================== */
 
@@ -48,7 +34,7 @@
 footer {
   font-size: 0.75rem;
   text-align: center;
-  padding: 2.5rem var(--spacing-xl) var(--spacing-xl);
+  padding: 2.5rem 1rem 1rem;
   line-height: 1.6;
 }
 
@@ -62,8 +48,8 @@ footer {
   left: 0;
   right: 0;
   z-index: 999;
-  padding: var(--spacing-lg) 1.25rem;
-  background-color: var(--color-white);
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
   border-top: 3px solid var(--color-sage);
   font-family: var(--font-sans);
   font-size: 0.875rem;
@@ -95,7 +81,7 @@ footer {
 }
 
 #cookie-banner button {
-  padding: 0.35rem var(--spacing-xl);
+  padding: 0.35rem 1rem;
   font-family: var(--font-sans);
   font-size: 0.875rem;
   font-weight: bold;
@@ -112,7 +98,7 @@ footer {
 
 #cookie-banner button:first-child {
   background-color: var(--color-link);
-  color: var(--color-white);
+  color: #fff;
 }
 
 #cookie-banner .cookie-manage {
@@ -125,5 +111,5 @@ footer {
 #cookie-banner button:focus {
   background-color: var(--color-link-hover);
   border-color: var(--color-link-hover);
-  color: var(--color-white);
+  color: #fff;
 }

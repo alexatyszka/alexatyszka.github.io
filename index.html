@@ -25,7 +25,7 @@
     <meta property="og:url" content="https://atyszka.org/" />
     <meta
       property="og:image"
-      content="https://atyszka.org/assets/images/headshot.jpeg"
+      content="https://atyszka.org/images/image000000.jpeg"
     />
 
     <!-- Twitter Card -->
@@ -53,7 +53,7 @@
           "name": "University of Illinois at Chicago"
         },
         "description": "Ph.D. Candidate studying plant phylogeny and evolution, specializing in Caryophyllales and carnivorous plants.",
-        "image": "https://atyszka.org/assets/images/headshot.jpeg",
+        "image": "https://atyszka.org/images/image000000.jpeg",
         "sameAs": [
           "https://github.com/alexatyszka",
           "https://scholar.google.com/citations?user=P67UxboAAAAJ&hl=en",
@@ -64,7 +64,7 @@
     </script>
 
     <!-- Analytics: loads only after cookie consent -->
-    <script src="js/utilities/cookie-consent.js"></script>
+    <script src="cookie-consent.js"></script>
 
     <link rel="stylesheet" href="style.css" />
     <script
@@ -76,65 +76,59 @@
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <div class="page-layout">
-      <header class="lead">
-        <img src="assets/images/headshot.jpeg" alt="Headshot of Alexa Tyszka" />
-        <h1>Alexa Tyszka</h1>
-        <p class="subtitle">
-          <i class="fa-solid fa-seedling" aria-hidden="true"></i><br />
-          Ph.D. Candidate, Ecology &amp; Evolution<br />
-          University of Illinois at Chicago<br />
-          Walker Lab
-        </p>
-        <nav class="contact" aria-label="Contact and profiles">
-          <a href="mailto:atyszka2@uic.edu" aria-label="Email Alexa">
-            <i class="fas fa-envelope-open-text fa-2x" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://github.com/alexatyszka"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub profile"
-          >
-            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://scholar.google.com/citations?user=P67UxboAAAAJ&hl=en"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Google Scholar profile"
-          >
-            <i class="fa-solid fa-graduation-cap fa-2x" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://bsky.app/profile/atyszka.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Bluesky profile"
-          >
-            <i class="fa-brands fa-bluesky fa-2x" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/alexa-tyszka/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn profile"
-          >
-            <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
-          </a>
-          <a href="./" aria-label="Home">
-            <i class="fa-solid fa-house fa-2x" aria-hidden="true"></i>
-          </a>
-        </nav>
-      </header>
-
       <main class="content-wrapper" id="main-content">
         <div class="about">
-          <!-- About -->
-          <section aria-labelledby="about-heading">
-            <h2 id="about-heading">
-              <i class="fa-solid fa-mug-hot" aria-hidden="true"></i> about me
-            </h2>
-            <p>
+          <!-- Profile + About -->
+          <div class="profile-card">
+            <div class="profile-header">
+              <img src="images/image000000.jpeg" alt="Headshot of Alexa Tyszka" />
+              <div class="profile-info">
+                <h1>Alexa Tyszka</h1>
+                <p class="subtitle">
+                  <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+                  Ph.D. Candidate, Ecology &amp; Evolution<br />
+                  University of Illinois at Chicago &middot; Walker Lab
+                </p>
+                <nav class="contact" aria-label="Contact and profiles">
+                  <a href="mailto:atyszka2@uic.edu" aria-label="Email Alexa">
+                    <i class="fas fa-envelope-open-text fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href="https://github.com/alexatyszka"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub profile"
+                  >
+                    <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href="https://scholar.google.com/citations?user=P67UxboAAAAJ&hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Google Scholar profile"
+                  >
+                    <i class="fa-solid fa-graduation-cap fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href="https://bsky.app/profile/atyszka.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Bluesky profile"
+                  >
+                    <i class="fa-brands fa-bluesky fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/alexa-tyszka/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn profile"
+                  >
+                    <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+                  </a>
+                </nav>
+              </div>
+            </div>
+            <p class="profile-bio">
               Nice to meet you! I am broadly interested in plant evolution and
               phylogenetics, specifically within <i>Caryophyllales</i> and
               carnivorous plants across disparate families. In my work I attempt
@@ -147,7 +141,7 @@
               ></a>
               and python <i class="fa-brands fa-python" aria-hidden="true"></i>.
             </p>
-          </section>
+          </div>
 
           <!-- Publications -->
           <section aria-labelledby="work-heading">
@@ -157,11 +151,13 @@
             </h2>
             <div class="publications-grid">
               <article class="publication-card">
-                <img
-                  src="assets/herbaria.jpg"
-                  alt=""
-                  class="publication-image"
-                />
+                <a
+                  href="https://doi.org/10.1101/2025.02.12.637878"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="herbaria.jpg" alt="" class="publication-image" />
+                </a>
                 <div class="publication-content">
                   <h3>
                     <a
@@ -180,11 +176,17 @@
                 </div>
               </article>
               <article class="publication-card">
-                <img
-                  src="assets/necrotizing-toxin.jpg"
-                  alt=""
-                  class="publication-image"
-                />
+                <a
+                  href="https://doi.org/10.1016/j.chom.2024.11.014"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="necrotizing-toxin.jpg"
+                    alt=""
+                    class="publication-image"
+                  />
+                </a>
                 <div class="publication-content">
                   <h3>
                     <a
@@ -204,11 +206,17 @@
                 </div>
               </article>
               <article class="publication-card">
-                <img
-                  src="assets/historical-rna.jpg"
-                  alt=""
-                  class="publication-image"
-                />
+                <a
+                  href="https://doi.org/10.1016/j.tplants.2024.11.004"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="historical-rna.jpg"
+                    alt=""
+                    class="publication-image"
+                  />
+                </a>
                 <div class="publication-content">
                   <h3>
                     <a
@@ -227,11 +235,17 @@
                 </div>
               </article>
               <article class="publication-card">
-                <img
-                  src="assets/transcriptome.jpeg"
-                  alt=""
-                  class="publication-image"
-                />
+                <a
+                  href="https://doi.org/10.1093/aob/mcae002"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="Transcriptome.jpeg"
+                    alt=""
+                    class="publication-image"
+                  />
+                </a>
                 <div class="publication-content">
                   <h3>
                     <a
@@ -251,11 +265,13 @@
                 </div>
               </article>
               <article class="publication-card">
-                <img
-                  src="assets/conflict.webp"
-                  alt=""
-                  class="publication-image"
-                />
+                <a
+                  href="https://doi.org/10.3389/fpls.2023.1125107"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="confligct.webp" alt="" class="publication-image" />
+                </a>
                 <div class="publication-content">
                   <h3>
                     <a
@@ -271,6 +287,38 @@
                     <b>Tyszka AS</b>, Bretz EC, Robertson HM, Woodcock-Girard
                     MD, Ramanauskas K, Larson DA, Stull GW and Walker JF
                     (2023)<br /><i>Front. Plant Sci.</i> 14:1125107.
+                  </p>
+                </div>
+              </article>
+              <article class="publication-card">
+                <a
+                  href="01-pages/botany-23-supp/botany_23_Tyszka_poster.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="poster-screenshot.png" alt="Botany 2023 conference poster" class="publication-image" />
+                </a>
+                <div class="publication-content">
+                  <h3>
+                    <a
+                      href="01-pages/botany-23-supp/botany_23_Tyszka_poster.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >RNA-seq and prospects for obtaining non-model plant
+                      transcriptomes</a
+                    >
+                  </h3>
+                  <p class="publication-citation">
+                    <b>Tyszka AS</b>, Larson DA, Walker JF.<br /><i
+                      >Botany 2023</i
+                    >. Bochum, Germany. Also see
+                    <a href="01-pages/botany-23-supp/botany-23-supp.html"
+                      >interactive figures</a
+                    >
+                    and
+                    <a href="01-pages/botany-23-supp/botany-citations.html"
+                      >source citations</a
+                    >.
                   </p>
                 </div>
               </article>
@@ -294,40 +342,9 @@
                       historical RNA sequencing</i
                     >
                     in Montreal.
-                    <a href="conference/index.html"
+                    <a href="01-pages/botany-24-supp/Botany2024supp.html"
                       >Interactive figures are available here.</a
                     >
-                  </p>
-                </div>
-              </article>
-              <article class="update-card">
-                <div class="update-left">
-                  <span class="update-date">July 2023</span>
-                  <h3>Botany 2023 poster</h3>
-
-                  <div class="pdf-embed">
-                    <iframe
-                      src="assets/transcriptome-project-poster.pdf#zoom=20"
-                      height="720px"
-                    ></iframe>
-                  </div>
-
-                  <p>
-                    Your browser doesn't support embedded PDFs.
-                    <a href="assets/transcriptome-project-poster.pdf">
-                      Download PDF
-                    </a>
-                  </p>
-
-                  <p>
-                    Find the poster here, along with
-                    <a href="transcriptome-project/index.html"
-                      >interactive figures</a
-                    >
-                    and
-                    <a href="transcriptome-project/citations.html"
-                      >source citations</a
-                    >.
                   </p>
                 </div>
               </article>
@@ -341,7 +358,7 @@
                   </p>
                 </div>
                 <img
-                  src="assets/botany-2023-poster.jpg"
+                  src="IMG-0735.jpg"
                   alt="Alexa standing in front of her conference poster."
                   class="update-image"
                 />
@@ -367,7 +384,7 @@
           <!-- <section aria-labelledby="resources-heading">
           <h2 id="resources-heading"><i class="fa-solid fa-link" aria-hidden="true"></i> resources</h2>
           <ul>
-            <li><a href="pages/posteradvice.html">Printing fabric conference posters</a> — a practical guide covering dimensions, services, and cost.</li>
+            <li><a href="01-pages/misc/posteradvice.html">Printing fabric conference posters</a> — a practical guide covering dimensions, services, and cost.</li>
           </ul>
         </section> -->
         </div>
